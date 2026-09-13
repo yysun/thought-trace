@@ -1,0 +1,61 @@
+Use case: infographic-diagram
+Asset type: polished educational infographic for the Thought Trace skill project.
+Primary request: Create one landscape 16:9 infographic explaining how to use the thought-trace skill. Light theme, cute 3D cartoon style, immediately useful to a first-time user. Render at high resolution with extremely clear, accurate English typography.
+
+Scene/backdrop: luminous warm-white canvas. Airy editorial spacing. Three numbered panels in a left-to-right workflow, with quiet pastel accents, rounded surfaces, and delicate shadows. A short title and subtitle span the top. A natural-language prompt strip and a concise source note span the bottom. Keep all content within generous margins.
+
+Style/medium: polished cute 3D clay illustration mixed with crisp flat typography. Soft rounded forms, tactile matte materials, soft studio light and ambient occlusion. Use small friendly 3D objects that directly illustrate the subject: calendar/folder/topic bubble for scope, a chat bubble for the request, and connected lightbulbs or idea cards for evolution. Tiny friendly faces on the illustration objects give cartoon charm; avoid adding unrelated mascot characters. Illustrations support the instructions without competing with text. Dark charcoal readable text on a very light background, tasteful pastel accents; no dark panels.
+
+Composition: title at the top; three generously spaced numbered panels in one horizontal row, the middle panel a little wider to fit the command examples. Under each small 3D vignette put its clear heading and exact text. Use solid, undistorted, conventional sans-serif lettering. Commands in a clean monospaced font, each on its own line. The command area is a light inset, not a dark terminal. Connect the three panels with subtle arrows. Treat all text as real instructional typography with careful alignment and legibility.
+
+Text (verbatim, preserve spelling, punctuation and hyphens; do not add any other copy):
+
+TITLE:
+"How to use Thought Trace"
+SUBTITLE:
+"See how your thinking evolved across AI work sessions."
+
+LEFT PANEL:
+"1"
+"Choose a scope"
+"Time"
+"Today, this week, or a date range"
+"Project"
+"One repository or project"
+"Topic"
+"An idea, decision, or question"
+"Start narrow. Expand when needed."
+
+MIDDLE PANEL:
+"2"
+"Ask for a trace"
+"/trace today"
+"/trace project my-project"
+"/trace topic \"my topic\""
+"/trace evolution \"my topic\""
+"/trace decisions"
+"/trace open-questions"
+
+RIGHT PANEL:
+"3"
+"Read the evolution"
+"Understand what changed and why."
+A simple horizontal conceptual diagram with these three labels:
+"Idea"
+"Evidence"
+"Decision"
+Below the diagram:
+"Alternatives considered"
+"Outcomes and open questions"
+"Source references and evidence gaps"
+
+BOTTOM PROMPT STRIP:
+"Plain language works too"
+"How has my thinking about this project evolved?"
+
+FOOTER:
+"With the skill installed, ask in Codex or Claude Code."
+"Uses accessible session history. No export or database required."
+"Grounded in visible conversations and evidence."
+
+Accuracy constraints: This is a usage guide, not an installation guide. The six slash-command lines are separate example requests; do not imply the user must run all of them. The third panel's idea/evidence/decision diagram is a conceptual explanation, not a fabricated historical finding. Do not claim to recover hidden reasoning. Spell the skill name Thought Trace accurately. Command open-questions must contain the hyphen. No logos, watermarks, illegible decorative text, pseudo-text, dense paragraphs, clipped content, or low-contrast lettering. Prioritize readable instructional content, wide balanced composition, and cute 3D cartoon charm.

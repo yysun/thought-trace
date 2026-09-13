@@ -7,6 +7,9 @@ user-invocable: true
 
 # Thought Trace
 
+**Version:** `1.0.0`
+**Repository:** https://github.com/yysun/thought-trace
+
 Reconstruct how a user's observable ideas and work developed across native AI work sessions. Sessions are evidence; the product is an evidence-grounded explanation of the evolution of thought, not a transcript archive or hidden chain-of-thought recovery.
 
 ## Use For

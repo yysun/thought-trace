@@ -1,0 +1,54 @@
+Use case: text-localization
+Asset type: Simplified Chinese edition of the existing Thought Trace usage infographic, for README.zh-CN.md.
+Input image: the English infographic is the edit target.
+Primary request: Translate the infographic into polished, accurate Simplified Chinese. Change text only, preserving the landscape layout, light theme, three-panel structure, cute 3D clay illustrations, smiling faces, colors, shadows, arrows, and spacing. Keep the image composition, subjects, and visual hierarchy consistent with the original. Adjust text size and local spacing only enough to make Chinese typography balanced and readable. Use crisp, legible Chinese sans-serif typography. Do not replace artwork.
+All English instructional text must be replaced by the exact translations below. Keep "Codex", "Claude Code", "AI", the /trace illustration, the six code examples, and step numerals unchanged. Command examples must remain exact usable ASCII syntax; my-project and "my topic" are placeholder values.
+
+Text replacements (verbatim):
+"How to use Thought Trace" → "思考轨迹使用指南"
+"See how your thinking evolved across AI work sessions." → "回顾你在 AI 工作会话中的思考演变"
+Illustration labels:
+"Today" → "今天"
+"Project" → "项目"
+"Topic" → "主题"
+
+Left panel:
+"Choose a scope" → "确定范围"
+"Time" → "时间"
+"Today, this week, or a date range" → "今天、本周或指定日期"
+"Project" → "项目"
+"One repository or project" → "一个代码仓库或项目"
+"Topic" → "主题"
+"An idea, decision, or question" → "一个想法、决策或问题"
+"Start narrow. Expand when needed." → "先缩小范围，再按需扩展。"
+
+Middle panel:
+"Ask for a trace" → "发起追溯"
+Keep the six code examples exactly, one per line:
+"/trace today"
+"/trace project my-project"
+"/trace topic \"my topic\""
+"/trace evolution \"my topic\""
+"/trace decisions"
+"/trace open-questions"
+
+Right panel:
+"Idea" → "想法"
+"Evidence" → "证据"
+"Decision" → "决策"
+"Read the evolution" → "理解思考演变"
+"Understand what changed and why." → "看清想法如何变化，以及为什么。"
+"Alternatives considered" → "考虑过的备选方案"
+"Outcomes and open questions" → "产出与待解问题"
+"Source references and evidence gaps" → "引用来源与证据缺口"
+
+Bottom prompt strip:
+"Plain language works too" → "自然语言也可以"
+"How has my thinking about this project evolved?" → "我对这个项目的思考是如何演变的？"
+
+Footer:
+"With the skill installed, ask in Codex or Claude Code." → "技能安装后，可在 Codex 或 Claude Code 中提问。"
+"Uses accessible session history. No export or database required." → "直接读取可访问的会话历史，无需导出或数据库。"
+"Grounded in visible conversations and evidence." → "以可见对话和证据为依据。"
+
+Constraints: all Chinese must be grammatically and typographically correct Simplified Chinese, sharp and readable at normal viewing size, no scrambled strokes or pseudo-glyphs. Preserve every image object and the original style and structure. Preserve accurate /trace spelling, ordinary double quotes, spaces, and hyphens in code examples. Do not add, remove, or duplicate any information. No watermark, no logos, no dark background, no new decorative characters.
