@@ -31,6 +31,10 @@ Create a compact, self-contained agent skill that operationalizes the PRD as a r
 - Use the E2E scenarios in `.docs/tests/test-thought-trace-skill.md` as a procedure walkthrough.
 - Run `git diff --check` to detect whitespace errors.
 
+## Milestone Evidence
+
+- `dc8fee0 feat: add thought trace skill` -- YAML frontmatter parsed successfully and `git diff --check` passed before commit.
+
 ## Risks
 
 - Session formats and permissions differ by host. The skill mitigates this by treating source adapters as logical procedures, reporting inaccessible sources, and continuing with available evidence.

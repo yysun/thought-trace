@@ -10,12 +10,12 @@ Provide an installable `thought-trace` agent skill that guides a host through di
 
 ## Acceptance Criteria
 
-- [ ] A skill exists at `skills/thought-trace/SKILL.md` with valid, discoverable YAML frontmatter whose `name` matches its folder.
-- [ ] The skill supports `/trace`-style and natural-language requests scoped by date, project, topic, evolution, decisions, or open questions.
-- [ ] The workflow discovers candidates from native Codex and Claude Code stores before reading full session content and continues when either source is unavailable.
-- [ ] The skill maps relevant messages into a small common session model and filters tool noise unless it explains a changed decision or outcome.
-- [ ] The output prioritizes conceptual transitions, decisions, alternatives, rejected approaches, outcomes, open questions, and source provenance over a raw chronology.
-- [ ] The skill requires no exporter, database, daemon, or copying of raw transcripts for normal use.
+- [x] A skill exists at `skills/thought-trace/SKILL.md` with valid, discoverable YAML frontmatter whose `name` matches its folder.
+- [x] The skill supports `/trace`-style and natural-language requests scoped by date, project, topic, evolution, decisions, or open questions.
+- [x] The workflow discovers candidates from native Codex and Claude Code stores before reading full session content and continues when either source is unavailable.
+- [x] The skill maps relevant messages into a small common session model and filters tool noise unless it explains a changed decision or outcome.
+- [x] The output prioritizes conceptual transitions, decisions, alternatives, rejected approaches, outcomes, open questions, and source provenance over a raw chronology.
+- [x] The skill requires no exporter, database, daemon, or copying of raw transcripts for normal use.
 
 ## Constraints
 
